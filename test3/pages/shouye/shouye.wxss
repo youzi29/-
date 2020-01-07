@@ -1,0 +1,4 @@
+/* pages/shouye/shouye.wxss */
+.hover{
+  background-color: gray
+}

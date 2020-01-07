@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+  },
+  "window": {
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  }
+ 
+}

@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="content">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+
+        <image class="swiper-img" src="{{item}}"></image>
+
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="movie" wx:for="{{movie}}">
+    <view class="pic">
+      <image src="{{item.thumbnail_pic_s}}"></image>
+    </view>
+    <view class="movie-info">
+      <view class="base-info">
+        <text>电影名字：{{item.author_name}}\n  导演：{{item.category}}\n  演员：{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+
+
+
+
+ <!-- <view class="movie">
+    <view class="pic">
+      <image src="/pages/image/img3.jpg" mode="aspectFill"></image>
+    </view>
+    <view class="movie-info">
+      <view class="base-info">
+        <text>{{"电影名字：xxx\n  导演：xxx\n  演员：xxx"}}</text>
+      </view>
+    </view>
+  </view>-->
+
+</view>

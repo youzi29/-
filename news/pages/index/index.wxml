@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<!--焦点图-->
+<swiper indicator-dots="{{indicatorDots}}"
+        circular="{{circular}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{focus}}">
+    <swiper-item>
+    <navigator url="/pages/view/view?id={{item.id}}">
+        <image class="swiper-img" src="{{item.thumbnail_pic_s}}" />
+    </navigator>
+    </swiper-item>
+  </block>
+</swiper>
+<!--最新内容-->
+<navigator url="/pages/view/view?id=111">
+<block wx:for="{{newslist}}">
+<image class="classThumb " src="{{item.thumbnail_pic_s}}" />
+<view class="classInfo">
+<view>{{item.title}}</view>
+<view>{{item.date}}</view>
+</view>
+</block>
+<block wx:for="{{test}}">
+   <view class="test">有有有由于</view>
+</block>
+</navigator>

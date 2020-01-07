@@ -1,0 +1,40 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.swiper-img{
+  width: 100%
+}
+.classThumb {
+  width: 370rpx;
+  height: 150rpx;
+  display: inline-block;
+}
+.classInfo{
+  display: inline-block;
+  width: 370rpx;
+  margin-top:35rpx;
+  margin-left: 5rpx;
+}
+.test{
+  height: 50rpx;
+  border: black solid 1px;
+  margin: 2rem;
+}

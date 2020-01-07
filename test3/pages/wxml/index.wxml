@@ -1,0 +1,10 @@
+<!--pages/wxml/index.wxml-->
+<view class="content">
+   <text class="time-text">当前时间：{{time}}\n</text>
+   <image class="lufei" src="/image/lufei.jpg"></image>
+   <view class="content-time test">
+      <text>hello world\n</text>
+   </view>
+   <view bindtap="clickMe"> {{ msg }}</view>
+  
+</view>

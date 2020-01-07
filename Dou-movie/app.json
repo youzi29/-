@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "color":"#fff",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "mini电影",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#888",
+    "selectedColor":"#1296db",
+    "backgroundColor": "#000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "影院",
+      "iconPath": "icon/tabbar/normal/影院.png",
+      "selectedIconPath": "icon/tabbar/selected/影院.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "热映",
+      "iconPath": "icon/tabbar/normal/电影.png",
+      "selectedIconPath": "icon/tabbar/selected/电影.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "查询",
+      "iconPath": "icon/tabbar/normal/查询.png",
+      "selectedIconPath": "icon/tabbar/selected/查询.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
